@@ -1,0 +1,46 @@
+{
+  "NameProject": "Fornecedores_flow",
+  "Main": "Bot.xaml",
+  "Description": null,
+  "Tecnology": "Python",
+  "Dependencies": [],
+  "WebDrivers": [
+    {
+      "Import": "CHROME,C:\\RPA\\WebDrivers\\chromedriver\\chromedriver.exe"
+    },
+    {
+      "Import": "CUSTOM,C:\\RPA\\WebDrivers\\custom\\custom.exe"
+    },
+    {
+      "Import": "EDGE,C:\\RPA\\WebDrivers\\msedgedriver\\msedgedriver.exe"
+    },
+    {
+      "Import": "FIREFOX,C:\\RPA\\WebDrivers\\geckodriver\\geckodriver.exe"
+    }
+  ],
+  "MaestroLogin": null,
+  "Packages": [
+    {
+      "Import": "JornadaRPA.Web"
+    },
+    {
+      "Import": "JornadaRPA.Mouse"
+    },
+    {
+      "Import": "JornadaRPA.Python"
+    },
+    {
+      "Import": "JornadaRPA.Excel"
+    },
+    {
+      "Import": "JornadaRPA.Keyboard"
+    },
+    {
+      "Import": "JornadaRPA.Tkinter"
+    }
+  ],
+  "PathSelector": "C:\\Jornada RPA Selector 1.0\\JornadaRPA.Selector.exe",
+  "PathRunner": "C:\\",
+  "PathInstalledPython": "C:\\Users\\JEFFERSON LIMA\\AppData\\Local\\Programs\\Python\\Python313",
+  "PathPythonVersion": "3.13"
+}
